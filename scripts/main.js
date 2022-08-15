@@ -75,7 +75,7 @@ async function getInputValue(){
   }
   else if(value === "products"){
     trueValue(value);
-    createText("<a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> enter guns and drugs here</a>")
+    createText("<a>enter guns and drugs here</a>")
   }
   else if(value === "services"){
     trueValue(value);
