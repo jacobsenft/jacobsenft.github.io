@@ -93,6 +93,13 @@ async function getInputValue(){
     createText("Didn't you mean: social -a?")
   }
   
+  else if(value === "secret"){
+    trueValue(value);
+    createText("<a href='' target='_blank'><i class='fab fa-github white'></i> you have</a>")
+    createText("<a href='' target='_blank'><i class='fab fa-linkedin-in white'></i> found an</a>")
+    createText("<a href='' target='_blank'><i class='fab fa-instagram white'></i> easter egg (:</a>")
+  }
+  
   else if(value === "clear"){
     document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
     document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
