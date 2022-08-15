@@ -35,7 +35,7 @@ a{
   color: rgb(238, 238, 238);
 }
 body{
-  background-color:#395945;
+  background-color:#395941;
 
   height: 100vh;
   font-family: 'Fira Code', monospace;
@@ -106,7 +106,7 @@ div.title{
 #app{
   display:flex;
   flex-direction: column;
-  background-color:#395945;
+  background-color:#28352d;
   width:100%;
   height:100%;
   padding:8px;
