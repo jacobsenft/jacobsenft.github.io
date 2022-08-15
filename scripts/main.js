@@ -84,20 +84,20 @@ async function getInputValue(){
   }
   else if(value === "contact"){
     trueValue(value);
-    createText("<a href='' target='_blank'><i class='fab fa-github white'></i> jake williams</a>")
-    createText("<a href='' target='_blank'><i class='fab fa-linkedin-in white'></i> eddie kim</a>")
-    createText("<a href='' target='_blank'><i class='fab fa-instagram white'></i> horitsu saito</a>")
+    createText("<a href='' target='_blank'></i> jake williams</a>")
+    createText("<a href='' target='_blank'></i> eddie kim</a>")
+    createText("<a href='' target='_blank'></i> horitsu saito</a>")
   }
-  else if(value === "social"){
+  else if(value === "creator"){
     trueValue(value);
-    createText("Didn't you mean: social -a?")
+    createText("Jake Williams (:")
   }
   
   else if(value === "secret"){
     trueValue(value);
-    createText("<a href='' target='_blank'><i class='fab fa-github white'></i> you have</a>")
-    createText("<a href='' target='_blank'><i class='fab fa-linkedin-in white'></i> found an</a>")
-    createText("<a href='' target='_blank'><i class='fab fa-instagram white'></i> easter egg (:</a>")
+    createText("<a href='' target='_blank'></i> you have</a>")
+    createText("<a href='' target='_blank'></i> found an</a>")
+    createText("<a href='' target='_blank'></i> easter egg (:</a>")
   }
   
   else if(value === "clear"){
@@ -115,7 +115,7 @@ function trueValue(value){
   const div = document.createElement("section");
   div.setAttribute("class", "type2")
   const i = document.createElement("i");
-  i.setAttribute("class", "fas fa-angle-right icone")
+  i.setAttribute("class", "")
   const mensagem = document.createElement("h2");
   mensagem.setAttribute("class", "sucess")
   mensagem.textContent = `${value}`;
@@ -129,7 +129,7 @@ function falseValue(value){
   const div = document.createElement("section");
   div.setAttribute("class", "type2")
   const i = document.createElement("i");
-  i.setAttribute("class", "fas fa-angle-right icone error")
+  i.setAttribute("class", "")
   const mensagem = document.createElement("h2");
   mensagem.setAttribute("class", "error")
   mensagem.textContent = `${value}`;
